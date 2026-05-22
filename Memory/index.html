@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Memory</h1>
+    </header>
+    <nav>
+        <h2>Difficulty Levels</h2>
+        <div class="difficulty">
+            <button onclick="play(2,4)">EASY</button>
+            <button onclick="play(3,4)">MEDIUM</button>
+            <button onclick="play(4,4)">HARD</button>
+        </div>
+    </nav>
+    <main>
+        <section class="board_container">
+            <div id="board">
+
+            </div>
+        </section>
+        
+        <section class="start_container">
+            <button id="startBtn" onclick="startGame()" disabled>START</button>
+        </section>
+    </main>
+    <footer>
+        <p>Autor: Konrad Boroń</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
